@@ -1,0 +1,265 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #262626;
+    color: #ffffff;
+    max-width: 100vw;
+  }
+  
+  ::-webkit-scrollbar{
+    width: 0px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  /* header */
+  
+  .header {
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+  }
+  
+  .logoLinks {
+    width: 70vw;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .logoImage {
+    width: 25px;
+    margin-right: 5px;
+  }
+  
+  .ulNavigation {
+    display: flex;
+    margin-left: 5rem;
+    list-style-type: none;
+    gap: 2rem;
+  }
+  
+  .search {
+    width: 20vw;
+    outline: none;
+    border: none;
+    background: #404040;
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+  
+  .hr {
+    background-color: #525252;
+    height: 1px;
+    margin: 3px 0px;
+  }
+  
+  /* main */
+  
+  .main, .footer {
+    max-width: 100vw;
+    padding: 4vh 10vw;
+  }
+  
+  /* hero section */
+  
+  .courseOverview {
+    display: flex;
+  }
+  
+  .courseDetails {
+    width: 53%;
+  }
+  
+  .courseDetails button, .footer button {
+    display: flex;
+    align-items: center;
+    outline: none;
+    border: none;
+    background-color: #9f0712;
+    padding: 7px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    gap: 10px;
+    line-height: 20px;
+  }
+  
+  .courseDetails button img {
+    background-color: #9f0712;
+    width: 30px;
+  }
+  
+  .courseName {
+    font-size: 60px;
+    font-weight: 700;
+  }
+  
+  .courseSummary {
+    font-size: 18px;
+    line-height: 28px;
+    color: #bfbfbf;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    text-align: justify;
+  }
+  
+  .mainVideo {
+    background: #000;
+    margin-left: 5vw;
+    width: 47%;
+    font-size: 48px;
+    font-weight: 800;
+  }
+  
+  /* lession video */
+  
+  .miniVideo {
+    background: #000;
+    min-width: 25%;
+    font-size: 24px;
+    font-weight: 800;
+  }
+  
+  .miniVideo .videoButton {
+    width: 40px;
+  }
+  
+  .thumbnail {
+    background-image: linear-gradient(90deg, #5c415a, #4f5067);
+    aspect-ratio: 2;
+    position: relative;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .videoTitle {
+    background-color: transparent;
+  }
+  
+  .videoButton {
+    width: 80px;
+    opacity: 0.9;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .videoButtonMini {
+    opacity: 0;
+  }
+  
+  .thumbnail:hover {
+    cursor: pointer;
+    .videoTitle {
+      opacity: 0.5;
+    }
+    .videoButtonMini {
+      opacity: 1;
+    }
+  }
+  
+  .videoLength {
+    font-size: 12px;
+    background-color: #262626;
+    font-weight: 400;
+    padding: 2px 4px;
+    border-radius: 4px;
+    position: absolute;
+    left: 1.5%;
+    bottom: 2%;
+  }
+  
+  /* course3 */
+  
+  .courseLength {
+    border-radius: 6px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 0px;
+    padding: 16px;
+  }
+  
+  .course3 {
+    display: flex;
+    gap: 7px;
+  }
+  
+  .courseLength .signal {
+    width: 24px;
+    margin-bottom: -6px;
+  }
+  
+  .courseLength button {
+    align-items: center;
+    background-color: #262626;
+    border-color: #404040;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 0.8px;
+    color: oklch(0.985 0 0);
+    display: inline-flex;
+    font-size: 14px;
+    font-weight: 600;
+    gap: 4px;
+    justify-content: center;
+    line-height: 20px;
+    padding: 4px 8px;
+    text-align: center;
+  }
+  
+  /* chapter */
+  
+  .videos {
+    display: grid;
+    gap: 60px;
+  }
+  
+  .video {
+    display: flex;
+    gap: 3vw;
+  }
+  
+  .videoDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+  
+  .videoDetails h2 {
+    font-weight: 600;
+  }
+  
+  .videoDetails h4 {
+    color: #c2c2c2;
+    font-weight: 500;
+  }
+  
+  .videoDetails .videoDetailsIcons {
+    width: 15px;
+    padding-right: 15px;
+  }
+  
+  .videoDetails .videoDetailsIcons:nth-child(2) {
+    padding-right: 0px;
+  }
+  
+  /* footer */
+  
+  .footer {
+    margin: 20px 0px;
+  }
+  
+  .footer button {
+    margin: 30px 0;
+  }

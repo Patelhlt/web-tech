@@ -1,0 +1,189 @@
+header h1 {
+    margin-bottom: 5px;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+header h2 {
+    margin-top: 0;
+    font-size: 25px;
+    color: #00BCD4;
+    margin-bottom: 5px;
+}
+header img {
+    position: absolute;
+    right: 5%;
+    top: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.fa-phone {
+    color: #333;
+    font-size: 14px;
+    margin-right: 2px;
+}
+.fa-envelope {
+    color: #333;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.fa-map-marker {
+    color: #333;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.contact-info {
+    display: flex;
+    gap: 30px;
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+header p {
+    display: flex;
+    margin-top: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    gap: 20px;
+}
+.left-column, .right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+.left-column h3, .right-column h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #00BCD4;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;           
+    margin-bottom: 10px; 
+    text-transform: uppercase;
+}
+.left-column p, .right-column p {
+    margin-top: 0;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.left-column h4, .right-column h4 {
+    color: #00BCD4;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.left-column a, .right-column a {
+    color: #000000;
+    margin-top: 0;
+    font-size: 20px;
+}
+.left-column b, .right-column b {
+    color: #000000;
+    margin-top: 0;
+    font-size: 25px;
+}
+.inner-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .inner-column {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+.inner-left-column h4, .inner-right-column h4 {
+    margin-top: 0;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.fa-calendar-alt {
+    color: #333;
+    font-size: 15px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.tab {
+    margin-right: 15px;
+    margin-bottom:5px;
+  }
+.left-column li, .right-column li {
+    margin-top: 0;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.left-column ul, .right-column ul {
+    margin-top: 0px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.languages {
+    width: 300px;
+}
+
+h3 {
+    font-size: 16px;
+    color: gray;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #999;
+    margin-bottom: 10px;
+}
+.language {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.lang-name {
+    font-weight: bold;
+}
+.lang-level {
+    font-size: 14px;
+    color: gray;
+    margin-left: auto;
+    margin-right: 10px;
+}
+.dots {
+    display: flex;
+}
+.dot {
+    width: 8px;
+    height: 8px;
+    margin: 0 2px;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+.filled {
+    background-color: black;
+}
+.skills {
+    width: 300px;
+}
+.skill-name {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 0px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
